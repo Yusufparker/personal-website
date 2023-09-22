@@ -3,19 +3,19 @@
   "routes": [
     {
       "src": "^/projects$",
-      "dest": "/"
+      "dest": "/projects.html"
     },
     {
       "src": "^/projects/([0-9]+)$",
-      "dest": "/"
+      "dest": "/project.html?id=$1"
     },
     {
       "src": "/experiences",
-      "dest": "/"
+      "dest": "/experiences.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/index.html"
     }
   ]
 }
