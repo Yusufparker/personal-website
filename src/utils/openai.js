@@ -2,12 +2,21 @@
 import { OpenAI } from "openai";
 
 // Buat variabel lokal untuk menyimpan nilai variabel lingkungan `OPENAI_API_KEY`
-const apiKey = process.env.OPENAI_API_KEY;
 
+try {
+   const apiKey = process.env.OPENAI_API_KEY;
+} catch (error) {
+  console.log(error
+}
 
+try {
+   // Buat objek OpenAI dengan menggunakan variabel lokal
+   const openai = new OpenAI({ apiKey });
+  
+} catch (error) {
+     console.log('error2',error)
+}
 
-// Buat objek OpenAI dengan menggunakan variabel lokal
-const openai = new OpenAI({ apiKey });
 
 // Fungsi untuk mengirim pesan ke OpenAI
 export async function sendMsgToOpenAi(message) {
