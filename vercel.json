@@ -1,21 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "^/projects$",
-      "dest": "/projects.html"
-    },
-    {
-      "src": "^/projects/([0-9]+)$",
-      "dest": "/project.html?id=$1"
-    },
-    {
-      "src": "/experiences",
-      "dest": "/experiences.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
