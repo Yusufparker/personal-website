@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "^/projects$",
+      "dest": "/"
+    },
+    {
+      "src": "^/projects/([0-9]+)$",
+      "dest": "/"
+    },
+    {
+      "src": "/experiences",
+      "dest": "/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
