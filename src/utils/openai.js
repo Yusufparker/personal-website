@@ -1,10 +1,11 @@
 // Import library OpenAI
 import { OpenAI } from "openai";
 
-// Buat objek OpenAI dengan menggunakan variabel lingkungan
-const openai = new OpenAI({
-   apiKey: process.env.OPENAI_API_KEY, // Menggunakan variabel lingkungan
-});
+// Buat variabel lokal untuk menyimpan nilai variabel lingkungan `OPENAI_API_KEY`
+const apiKey = process.env.OPENAI_API_KEY;
+
+// Buat objek OpenAI dengan menggunakan variabel lokal
+const openai = new OpenAI({ apiKey });
 
 // Fungsi untuk mengirim pesan ke OpenAI
 export async function sendMsgToOpenAi(message) {
