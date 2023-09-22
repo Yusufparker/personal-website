@@ -1,9 +1,10 @@
 // Import library OpenAI
 import { OpenAI } from "openai";
 
-// Buat variabel lokal untuk menyimpan nilai variabel lingkungan `OPENAI_API_KEY`
+import dotenv from 'dotenv';
 
-
+// Load konfigurasi dari file .env
+dotenv.config();
 const apiKey = process.env.OPENAI_API_KEY;
 
 
