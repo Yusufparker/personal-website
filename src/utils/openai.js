@@ -2,7 +2,7 @@
 import { OpenAI } from "openai";
 
 // Buat variabel lokal untuk menyimpan nilai variabel lingkungan `OPENAI_API_KEY`
-const apiKey = process.env.get('OPENAI_API_KEY');
+const apiKey = process.env.OPENAI_API_KEY;
 
 
 
