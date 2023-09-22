@@ -1,0 +1,632 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+:root {
+
+  --bgColor1: #1a1b1e;
+  --bgColor2: #141517;
+  --shadowColor: #3d3e42;
+  --textColor: rgb(217, 217, 217);
+  --hoverColor: #141517;
+
+}
+
+/*  
+
+  --bgColor1 : #ffff;
+  --bgColor2 : #f1f1f1;
+  --textColor : rgb(64, 64, 64);
+  --shadowColor : #b9babd;
+  --hoverColor : #bcbbbb;
+
+  
+  */
+
+
+::selection {
+  background-color: var(--textColor);
+  /* Warna latar belakang ketika teks diblok */
+  color: #333;
+  /* Warna teks ketika teks diblok */
+}
+
+body {
+  background-color: var(--bgColor2);
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.sidebar {
+  width: 300px;
+  margin-top: 70px;
+  background-color: var(--bgColor1);
+  height: 100%;
+  font-size: .9rem;
+  box-shadow: 0.5px -0.5px var(--shadowColor);
+  color: var(--textColor);
+  z-index: 1;
+}
+
+.sidebar2 {
+  width: 100%;
+}
+
+.sidebar ul,
+.sidebar2 ul {
+  padding: 20px;
+}
+
+
+.sidebar2 ul {
+
+  width: 100%;
+
+}
+
+.sidebar ul li a {
+  padding: 10px;
+  display: block;
+  
+}
+
+.sidebar2 ul li a {
+  padding: 10px;
+  display: block;
+}
+
+.sidebar ul .nav-non:hover,
+.sidebar2 .nav-non:hover,
+.humberger:hover {
+  background-color: var(--hoverColor);
+  cursor: pointer;
+}
+
+.sidebar ul .nav-non a,
+.sidebar2 ul .nav-non a {
+  text-decoration: none;
+  color: var(--textColor);
+  word-spacing: 10px;
+}
+
+.main-content {
+  margin-top: 70px;
+  margin-left: 300px;
+  background-color: var(--bgColor2);
+  width: 100%;
+}
+
+.nav-active {
+  background-color: #0b7eac;
+}
+
+.nav-active a {
+  color: white;
+  text-decoration: none;
+  word-spacing: 10px;
+}
+
+.header,
+.footer {
+  height: 70px;
+  background-color: var(--bgColor1);
+  color: var(--textColor);
+  box-shadow: 0 .5px var(--shadowColor);
+  font-size: .7rem;
+}
+
+.footer {
+  box-shadow: 0 -0.5px var(--shadowColor);
+  height: 50px;
+}
+
+
+.front {
+  width: 100%;
+  border-radius: 5px;
+  background-image: url("/public/img/Muhammad\ Yusuf.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  color: rgb(217, 217, 217);
+
+}
+
+.front a {
+  background-color: #0081B4;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.front .education{
+  background: none;
+}
+.front .education:hover{
+  background:none;
+  color: #0081B4;
+}
+
+.front a:hover {
+  background-color: #074056;
+}
+
+.humberger {
+  padding: 5px;
+  margin-right: 10px;
+  display: none;
+
+
+}
+
+
+
+.vignate {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  /* Hanya setengah bagian bawah */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  pointer-events: none;
+}
+
+.bg-color1 {
+  background-color: var(--bgColor1);
+}
+
+
+
+.offcanvas {
+  display: none;
+  margin-top: 70px;
+  background-color: var(--bgColor1);
+  z-index: 1;
+}
+
+.btn-dark {
+  right: 15px;
+  bottom: 15px;
+  padding: 10px 5px;
+}
+
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+
+.card-values {
+  color: var(--textColor);
+}
+
+.card-values .icon-values {
+  background-color: #0081B4;
+  width: 40px;
+  border-radius: 5px;
+  color: rgb(217, 217, 217);
+  text-align: center;
+}
+
+.desc-values {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+
+
+.core-values img {
+  box-shadow: .5px .5px var(--shadowColor);
+}
+
+
+
+.text-color {
+  color: var(--textColor);
+}
+
+
+
+
+/* certificate */
+.modal-image{
+  width: 100%;
+  margin-left: -10px;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  background-color: #141517;
+  /* align-items: center;
+  justify-content: center; */
+  animation: fadeIn 1s ease-in-out;
+  
+  /* opacity: 0 */
+
+}
+
+
+.modal-image button{
+  top: 0;
+  right: 0;
+  border: 0;
+  color: white;
+  background: none;
+}
+
+.certificate .img-certificate{
+  transition: all .3s;
+  cursor: pointer
+;
+}
+
+
+
+
+
+.card-load-certificate{
+  height: 200px;
+}
+
+.card-load-certificate div{
+  background-color: var(--shadowColor);
+}
+
+
+.card-img-home{
+  cursor: pointer;
+}
+
+.card-img-home::before{
+  content: 'About Me';
+  color: white;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#141517c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 3;
+  transition: all .4s;
+}
+.card-img-home:hover.card-img-home::before{
+  opacity: 1;
+  transition: ease-in 1s;
+
+}
+
+.img-home{
+  transition: all .4s;
+}
+.card-img-home:hover .img-home{
+  transform: scale(1.1);
+  transition: ease-in .4s;
+}
+
+.certificate .img-certificate:hover{
+  transform: scale(1.1);
+  transition: all .3s;
+}
+
+.modal-home{
+  background-color: var(--bgColor1);
+  color: var(--textColor);
+}
+
+.modal-home h1{
+  color: #0081B4;
+  font-weight: bold;
+}
+
+.modal-home p{
+  font-size: 13px;
+}
+
+.modal-home h6{
+  font-size: 15px;
+  color: #0b7eac;
+}
+
+.modal-home .modal-body ul{
+  padding-left: 20px;
+}
+
+.modal-body ul li{
+  list-style: square;
+}
+
+.modal-home .btn-close{
+  background-color: rgba(255, 0, 0, 0.664);
+  border-radius: 0;
+}
+
+
+
+/* project */
+
+.card-project{
+  background-color:#3d3e428c;
+  border-radius: 5px;
+ 
+
+}
+
+
+.card-project .desc{
+  font-size: 14px;
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Jumlah baris yang ingin ditampilkan */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-project .btn-dropdown{
+  color: var(--textColor);
+  text-decoration: none;
+  background-color: #0081b4ab;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.dropdown-project{
+  position: absolute;
+  color: var(--bgColor2);
+  top: -80px;
+  right: 5px;
+  width: 100px;
+  transition:  .3s ease-in;
+  animation-duration: .5s;
+}
+
+.dropdown-project ul{
+  padding: 0;
+  background-color: #074056;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dropdown-project ul li a{
+  text-decoration: none;
+  color: #141517;
+  font-size: 12px;
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+
+.card-project .btn-project{
+  width: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+}
+
+
+
+
+
+.loading-project{
+  height: 300px;
+  
+}
+
+.loading-project div{
+  background-color: #3d3e42;
+}
+
+
+
+
+/* single projek */
+/* Mengubah warna dots aktif (titik terpilih)h */
+.slick-dots li.slick-active button::before {
+  color: #0081B4;
+}
+
+/* Mengubah warna dots */
+.slick-dots li button::before {
+  color: white;
+}
+
+.project-build{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.desc-project{
+  font-size: 14px;
+}
+
+.project-build span{
+  margin-right: 3px;
+  margin-bottom: 3px;
+  background-color: #08678d;
+  font-style: italic;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #141517;
+  font-size: 12px;
+}
+
+.btn-back{
+  color: #0b7eac;
+  transition: .3s ease-out;
+}
+
+.btn-back:hover{
+  transform: translateX(5px);
+  transition: .3s ease-in;
+}
+
+
+.single-project .btn-visit{
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.loading-slider{
+  height: 200px ;
+  background-color: #0081b4ac;
+}
+
+
+
+/* contact */
+
+.contact h1{
+  color: #0b7eac;
+  font-weight: normal;
+}
+
+.contact-desc{
+  font-size: 30px;
+  font-weight: 600;
+  /* line-height: 1; */
+
+}
+
+.contact .sosmed {
+  background-color: #1a1b1e97;
+  
+}
+
+.contact .sosmed p{
+  font-size: 14px;
+}
+
+.contact .sosmed a{
+  background-color: #0081B4;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contact form .btn-send{
+  background-color: #0081B4;
+
+}
+
+
+.contact .sosmed img{
+  border-radius: 100%;
+}
+
+
+
+
+
+/* CHATBOT BONUS WKWK */
+.chatbot .chat-bot div{
+  background-color: #3d3e42;
+  color: white;
+}
+
+.chatbot{
+  font-size: 14px;
+}
+
+
+.chatbot .chat-user div{
+  background-color: #074056;
+  color: white;
+}
+
+.chatbot .chat-user{
+  justify-content: end;
+}
+
+
+.chatbox{
+  height: 75vh;
+  overflow-y: scroll;
+  /* menyembynikan dari firefox */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+}
+/* Menyembunyikan bilah scroll di Chrome dan Safari */
+.chatbox::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.chatbox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+.chatbot .input-question{
+  bottom: 0;
+  width: 95%;
+}
+
+.chatbot .btn-send{
+  right: 10px;
+  bottom: 10px;
+  border: 0;
+  color: #0081B4;
+  z-index: 3;
+}
+
+.chatbot .btn-send:hover{
+  color: #074056;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+
+
+
+  .humberger {
+    display: inline;
+  }
+
+  .offcanvas {
+    display: block;
+  }
+
+
+
+  .modal-dialog {
+    padding: 0 30px;
+  }
+
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-500px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

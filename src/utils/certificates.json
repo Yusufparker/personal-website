@@ -1,0 +1,41 @@
+[
+    {
+        "id":1,
+       "title":"Certificate Dasar Pegograman Web",
+        "desc":"Belajar Dasar Pemograman Web di Dicoding",
+        "image":"img/c1.png"
+    },
+    {
+        "id":2,
+       "title":"Certificate Programming Fundamental",
+        "desc":"Programming Fundamental (Html, css, javascript, MySql, php) di Eduwork",
+        "image":"img/c2.png"
+    },
+    {
+        "id":3,
+       "title":"Certificate Big Data & Analytics",
+        "desc":"Pelatihan Big Data & Analytycs menggunakan Python (CISCO NETACAD)",
+        "image":"img/c3.png"
+    },
+    {
+        "id":4,
+       "title":"Certificate Big Data Using Python",
+        "desc":"Pelatihan Big Data Using Python program FGA Digitalent Kominfo",
+        "image":"img/c4.png"
+    },
+    {
+        "id":5,
+       "title":"Certificate Dasar Pemrograman Javascript",
+        "desc":"Pelatihan Dasar Javascript di Dicoding",
+        "image":"img/c5.png"
+    },
+    {
+        "id":6,
+       "title":"Certificate Membuat Aplikasi Web Dengan React",
+        "desc":"Pelatihan Membuat Aplikasi Web dengan React JS di Dicoding",
+        "image":"img/c6.png"
+    }
+
+
+
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "Nazeera Store Snack And Food",
+        "desc": "Nazeera Store Snack And Food adalah website yang menyediakan  produk makanan berupa boci, macaroni, dll. ",
+        "image": [
+            "img/projek/programing/nazeera.store.png",
+            "img/projek/programing/nazeera.store2.png"
+        ],
+        "link": "https://nazeerastore.muhammadyusuf73.repl.co/",
+        "build" :[ "React Js","Bootstrap"]
+    },
+    {
+        "id": 2,
+        "title": "HDMI DKI Jakarta",
+        "desc": "HDMI (Himpunan Dai Muda Indonesia) adalah organsasi kumpulan dai muda islam di Indonesia, dan HDMI DKI Jakarta adalah cabang jakarta dari HDMI",
+        "image": [
+            "img/projek/programing/hdmi jakarta.png",
+            "img/projek/programing/hdmi jakarta2.png"
+        ],
+        "link": "https://hdmijakarta.com/",
+        "build":["Laravel","Bootstrap","Database","Fullstack"]
+    },
+    {
+        "id": 3,
+        "title": "Slicing Youtube",
+        "desc": "Saya mencoba membuat kembali tampilan Home dari Youtube untuk mengasah kemampuan saya",
+        "image": [
+            "img/projek/programing/youtube clone.png",
+            "img/projek/programing/youtube clone2.png"
+        ],
+        "link": "https://yusufparker.github.io/youtube-clone/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 4,
+        "title": "QuranKu Website",
+        "desc": "QuranKu adalah project untuk menyajikan kitab suci Al-Quran dalam bentuk website. Prinsip pengembangan yang digunakan adalah penggunaan Javascript seminimal mungkin dan zero dependencies. One page served by one HTML file.",
+        "image": [
+            "img/projek/programing/QuranKu.png",
+            "img/projek/programing/QuranKu2.png"
+        ],
+        "link": "https://yusufparker.github.io/QuranKu/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 5,
+        "title": "Slicing Website .TEAM",
+        "desc": "Membuat sclising website test front end CTARSA oleh detik",
+        "image": [
+            "img/projek/programing/tes_fe.png"
+        ],
+        "link": "https://yusufparker.github.io/team.-test-front-end-CTARSA/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 6,
+        "title": "Portfolio Template",
+        "desc": "Template portfolio by Muhammad Yusuf | DarkBlue Theme",
+        "image": [
+            "img/projek/programing/portfolio.png"
+        ],
+        "link": "https://yusufparker.github.io/yusufparker.portfolio.github.io/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 7,
+        "title": "My Movies DB",
+        "desc": "I created this website to implement my understanding of API, this website contains information about films",
+        "image": [
+            "img/projek/programing/My Movies DB.png"
+        ],
+        "link": "https://yusufparker.github.io/MyMoviesDB--API-implementation/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 8,
+        "title": "Wedding Invitation Digital | Template 01",
+        "desc": "Template Undangan Pernikahan bentuk Digital berupa Website",
+        "image": [
+            "img/projek/programing/wedding invitation.png"
+        ],
+        "link": "https://yusufparker.github.io/wedding-invitation1/",
+        "build": ["Html", "Css", "Jquery", "Bootstrap"]
+    },
+    {
+        "id": 9,
+        "title": "POS Kasir Caffe",
+        "desc": "Membuat aplikasi desktop berupa POS kasri kafe dengan VB.Net",
+        "image": [
+            "img/projek/programing/cafe kasir.png"
+        ],
+        "link": "https://github.com/Yusufparker/kasir-cafe/",
+        "build": ["VB.Net", "Database"]
+    }
+
+
+
+
+]
