@@ -1,10 +1,6 @@
 // Import library OpenAI
 import { OpenAI } from "openai";
 
-import dotenv from 'dotenv';
-
-// Load konfigurasi dari file .env
-dotenv.config();
 const apiKey = process.env.OPENAI_API_KEY;
 
 
