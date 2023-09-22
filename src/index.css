@@ -125,7 +125,7 @@ ul {
 .front {
   width: 100%;
   border-radius: 5px;
-  background-image: url("/public/img/Muhammad\ Yusuf.jpg");
+  background-image: url("img/Muhammad Yusuf.jpg");
   background-position: center;
   background-size: cover;
   height: 600px;
