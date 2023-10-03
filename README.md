@@ -1,5 +1,4 @@
-# TITLE
-Personal Website
+# Personal Website
 
 # DESCRIPTION
 Ini adalah proyek personal website saya yang dibangun dengan React.js. Website ini berfungsi sebagai tempat saya untuk berbagi informasi tentang diri saya, portofolio, dan kontak.
